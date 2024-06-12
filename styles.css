@@ -1,0 +1,27 @@
+body {
+    background-color: #F1EEE7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+img {
+    object-fit: cover;
+    width: 430px;
+    height: 430px;
+    margin: auto;
+padding: 20px;
+border-radius: 25px;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    width: 25%;
+    margin: auto;
+    
+  }
+
+  h1 {
+    margin:auto;
+  }

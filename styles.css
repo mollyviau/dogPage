@@ -4,15 +4,25 @@ body {
     background-image:url("background.jpg");
     color:white;
 }
+
+
+
 img {
     object-fit: cover;
-    width: 430px;
-    height: 430px;
+    width: 80vw;
+    height: 70vh;
+    /* width: 430px;
+    height: 430px; */
     margin: auto;
 padding: 20px;
 border-radius: 25px;
   }
 
+@media screen and (min-width: 768px) {
+  img {
+    width:500px;
+  }
+}
   #container {
     display: flex;
     flex-direction: column;

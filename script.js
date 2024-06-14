@@ -10,7 +10,7 @@ async function getDogs() {
         // Creating an image element
         const dogImg = document.getElementById("dogImg");
         dogImg.src = data.message; // The 'message' field contains the URL of the dog image
-        dogImg.alt = "A random dog"; // Optional: Adds alternative text for the image
+        dogImg.alt = "A random dog"; // Adds alternative text for the image
 
         // Append the image element to the body or any other container
        // document.body.appendChild(dogImg);

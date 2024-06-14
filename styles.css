@@ -22,6 +22,9 @@ border-radius: 25px;
   img {
     width:500px;
   }
+  button {
+    width: 25%;
+  }
 }
   #container {
     display: flex;
@@ -29,7 +32,7 @@ border-radius: 25px;
   }
 
   button {
-    width: 25%;
+    
     margin: auto;
     padding: 10px;
     background-color: #190829;
